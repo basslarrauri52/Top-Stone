@@ -1,0 +1,296 @@
+body {
+	max-width: 1024px;
+	background: black;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	overflow: auto;
+	margin: 0 auto;
+	font-size: 100%;
+	}
+	
+img {
+	border-radius: 15px;
+	}
+	
+a {
+	text-decoration: none;
+	color: #6b8e23;
+	} 
+	
+a:hover {
+	background-image: url(../images/green-marble.jpg);
+	color: black;
+	}
+	
+header img { 
+	width: 14.6484375%; /*150/1024*/
+	float: left;
+	margin-right: 9.765625%;/*14.6484375%; /*150/1024*/
+	border-radius: 15px;
+	margin-bottom: 1.953125%; /*20/1024*/
+	-webkit-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	-o-transition: all 0.5s ease out;
+	transition:all 0.5s ease-out;
+	}
+	
+#logo {
+	margin-top: -1.953125%; /*20/1024*/
+	}
+	
+header img:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	}
+	
+header h1 {
+	font-size: 2.5em; /*30/16*/
+	color: #6b8e23;
+	}
+	
+header h2 {
+	float: left;
+	font-size: 1.25em; /*20/16*/
+	color: #6b8e23;
+	}
+	
+#phone {
+	margin-right: 26.85546875%; /*275/1024*/
+	}
+	
+ul {
+	list-style-type: none;
+	}
+	
+nav {
+	clear: both;
+	margin-left: -35px;
+	margin-right: 0;
+	}
+	
+nav ul { /*set nav width, background, etc.*/
+	width: 90%; /*90% of 1024px is 921.6*/
+	background-image: url(../images/white-marble.jpg);
+	font-size: 1.25em; /*20/16*/
+	margin: 0 auto;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 0 auto;
+	}
+	
+nav li { /*set text style, size, and nav element setup*/
+	float: left;
+	margin: 0 4.665798611111%; /* 43px / 921.6px */
+	font-size: 1em;
+	font-weight: bolder;
+	}
+	
+nav a { /*set link elements*/
+	display: block;
+	line-height: 1.875em; /* 30px / 16px */
+	color: #6b8e23;
+	}
+	
+nav a:hover { /*set hover highlights*/
+	color: black;
+	background-image: url(../images/green-marble.jpg);
+	}
+	
+/*==================================set up scrolling gallery and CTA=======================*/
+#container, aside {
+	width: 97.65625%;/*1000/1024*/
+	overflow: hidden;
+	margin: 50px auto;
+	background-image: url(../images/white-marble.jpg);
+	border-radius: 15px;
+	margin-left: -5px;
+}
+
+#rolling {
+	margin-top: 20px;
+	margin-left: 350px;
+	font-size: 1.875em;/*30/16*/
+	color: #6b8e23;
+	}
+	
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 100px;
+}
+
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+ }
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+ 
+.photobanner img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+ 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+#price {
+	margin-top: 125px;
+	margin-left: 175px;
+	color: #6b8e23;
+	font-size: 1.875em;/*30/16*/
+	}
+	
+/*==============================underneath the CTA==================================*/
+
+
+#video, #selection, #map {
+	width: 19.53125%;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	}
+	
+#video, #selection {
+	margin-right: 190px;
+	}
+	
+#video {
+	padding-left: 15px;
+	}
+
+#map {
+	padding-right: 10px;
+	}
+	
+p {
+	margin-top: 10px;
+	color: #6b8e23;
+	}
+	
+/*==========================MEDIA QUERIES==========================================*/
+	
+/*Screen size 960px to 1023px* new 90% is 920.7*/
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	/*body {background-image: none; background-color: yellow;}*/
+	header img {margin-left: 20px;}
+	nav li {margin-left: 40px;}
+	nav ul {width: 90%; margin-left: 50px;}
+	#container, aside {margin-left: 15px; width: 97%;}
+	#video, #selection {margin-right: 185px;}
+	}
+	
+/*Tablet portrait size to standard 960 (devices & browsers) new 90% is 863.1*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	/*body {background-image: none; background-color: pink;}*/
+	header {margin-left: 10px;}
+	nav li {margin-left: 35px;}
+	nav ul {margin-left: 35px; width: 90%;}
+	#container, aside {margin-left: 12px; width: 97%;}
+	#rolling {margin-left: 315px;}
+	#price {margin-left: 125px;}
+	#video, #selection {margin-right: 165px;}
+	}
+	
+/*Mobile landscape size to tablet portrait size (devices & browsers) new 90% is 690.3000000000001*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*body {background-image: none; background-color: blue;}*/
+	header {margin-left: 15px;}
+	#slogan {font-size: 1.5em;}
+	nav li {font-size: 0.7em; margin-left: 25px;}
+	nav ul {width: 85%;}
+	#container, aside {width: 92.5%; margin-left: 20px;}
+	#rolling {margin-left: 190px;}
+	#price {margin-left: 80px;}
+	#video {margin-right: 80px;}
+	#selection {margin-right: 80px;}
+	#video, #selection, #map {width: 22%; text-align: center;}
+	p {margin-left: 20px; font-size: 1em;}
+	}
+	
+/*Mobile portrait size to mobile landscape size (devices & browsers)*/
+@media only screen and (max-width: 479px) {
+	/*body {background-image: none; background-color: black;}*/
+	header img {display: none;}
+	#slogan {margin-left: -15px;}
+	#phone {margin-left: 20px; margin-right: 20px;}
+	header h1 {font-size: 1.5em; text-align: center;}
+	nav li {font-size: 0.55em; margin-left: -0.2%;}
+	nav ul {width: 70%; margin-left: auto; margin-right: auto;}
+	#container, aside {width: 85%; margin-left: 20px; margin-right: auto;}
+	#rolling, #price {margin-left: 30px;}
+	#video, #selection, #map {clear: both; padding-left: 70px; width: 65%;}
+	}
