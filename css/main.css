@@ -1,6 +1,6 @@
 body {
 	max-width: 1024px;
-	background: black;
+	background-image: url(../images/smoky-fountain.jpg);
 	background-repeat: repeat;
 	background-attachment: scroll;
 	overflow: auto;
@@ -8,9 +8,9 @@ body {
 	font-size: 100%;
 	}
 	
-img {
+/*img {
 	border-radius: 15px;
-	}
+	}*/
 	
 a {
 	text-decoration: none;
@@ -18,17 +18,24 @@ a {
 	} 
 	
 a:hover {
-	background-image: url(../images/green-marble.jpg);
+	background: 6b8e23;
 	color: black;
 	}
 
 /*=================================style the header===============================*/
 	
+header {
+	background-image: url(../images/white-marble.jpg);
+	border-radius: 15px;
+	width: 97%;
+	}
+
 header img { 
 	width: 14.6484375%; /*150/1024*/
 	float: left;
 	margin-right: 9.765625%;/*14.6484375%; /*150/1024*/
-	border-radius: 15px;
+	padding-left: 20px;
+	padding-top: 20px;
 	margin-bottom: 1.953125%; /*20/1024*/
 	-webkit-transition:all 0.5s ease-out;
 	-moz-transition:all 0.5s ease-out;
@@ -49,6 +56,7 @@ header img:hover {
 	}
 	
 header h1 {
+	padding-top: 20px;
 	font-size: 2.5em; /*30/16*/
 	color: #6b8e23;
 	}
@@ -77,7 +85,6 @@ nav {
 	
 nav ul { /*set nav width, background, etc.*/
 	width: 90%; /*90% of 1024px is 921.6*/
-	background-image: url(../images/white-marble.jpg);
 	font-size: 1.25em; /*20/16*/
 	margin: 0 auto;
 	border-radius: 15px;
@@ -100,7 +107,10 @@ nav a { /*set link elements*/
 	
 nav a:hover { /*set hover highlights*/
 	color: black;
-	background-image: url(../images/green-marble.jpg);
+	/*background-image: url(../images/green-marble.jpg);*/
+	background: #6b8e23;
+	border-radius: 15px;
+	padding: 2px;
 	}
 	
 /*==================================set up scrolling gallery and CTA=======================*/
@@ -112,10 +122,6 @@ nav a:hover { /*set hover highlights*/
 	border-radius: 15px;
 	margin-left: -5px;
 }
-
-article a {
-	color: black;
-	}
 	
 article p {
 	-moz-column-count: 3;
@@ -126,6 +132,15 @@ article p {
 	column-gap: 10px;
 	margin: 20px;
 	text-align: left;
+	}
+	
+article a {
+	text-decoration: underline;
+	color: black;
+	}
+	
+article a:hover {
+	background: #6b8e23;
 	}
 
 #rolling {
@@ -262,7 +277,10 @@ p {
 	
 /*===================================format the form=======================*/
 
-
+form {
+	padding: 10px;
+	}
+	
 #qh {
 	font-weight: bolder;
 	}
@@ -283,7 +301,8 @@ label {
 	}
 
 input:focus, textarea:focus {
-	background: yellow;
+	background: #008b8b;
+	color: white;
 	}
 	
 input {
@@ -357,7 +376,7 @@ fieldset p {
 	}
 	
 .submit:hover {
-	color: #f00;
+	color: #191970;
 	}	
 /*==========================MEDIA QUERIES==========================================*/
 	
