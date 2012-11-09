@@ -427,7 +427,7 @@ fieldset p {
 	#phone {margin-left: 20px; margin-right: 20px;}
 	header h1 {font-size: 1.5em; text-align: center;}
 	nav li {font-size: 0.55em; margin-left: -0.2%;}
-	nav ul {width: 70%; margin-left: auto; margin-right: auto;}
+	nav ul {width: 60%; margin-left: auto; margin-right: auto;}
 	#container, aside {width: 85%; margin-left: 20px; margin-right: auto;}
 	#rolling, #price {margin-left: 30px;}
 	#video, #selection, #map {clear: both; padding-left: 70px; width: 65%;}
