@@ -396,7 +396,7 @@ fieldset p {
 	header {margin-left: 10px;}
 	nav li {margin-left: 35px;}
 	nav ul {margin-left: 35px; width: 90%;}
-	#container, aside {margin-left: 12px; width: 97%;}
+	#container, aside, article {margin-left: 12px; width: 97%;}
 	#rolling {margin-left: 315px;}
 	#price {margin-left: 125px;}
 	#video, #selection {margin-right: 165px;}
