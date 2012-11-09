@@ -405,11 +405,16 @@ fieldset p {
 /*Mobile landscape size to tablet portrait size (devices & browsers) new 90% is 690.3000000000001*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	/*body {background-image: none; background-color: blue;}*/
-	header {margin-left: 15px;}
+	header {margin-left: 15px; width: 92.5%;}
+	#fax {margin-left: 185px;}
 	#slogan {font-size: 1.5em;}
-	nav li {font-size: 0.7em; margin-left: 25px;}
+	nav li {font-size: 0.75em; margin-left: 25px;}
 	nav ul {width: 85%;}
-	#container, aside {width: 92.5%; margin-left: 20px;}
+	#container, aside, article {width: 92.5%; margin-left: 20px;}
+	#city {margin-left: 5px;}
+	#zipcode {margin-left: 10px;}
+	#phonenum {margin-left: 125px;}
+	#em {margin-left: 130px;}
 	#rolling {margin-left: 190px;}
 	#price {margin-left: 80px;}
 	#video {margin-right: 80px;}
