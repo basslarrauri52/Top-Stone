@@ -424,6 +424,7 @@ fieldset p {
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 	/*body {background-image: none; background-color: black;}*/
+	body {width: 90%;}
 	header {width: 60%;}
 	header img {display: none;}
 	#slogan {margin-left: -15px;}
