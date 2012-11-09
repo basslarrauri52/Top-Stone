@@ -421,7 +421,7 @@ fieldset p {
 /*Mobile portrait size to mobile landscape size (devices & browsers)*/
 @media only screen and (max-width: 479px) {
 	/*body {background-image: none; background-color: black;}*/
-	body {margin-left: 20px;}
+	header {margin-left: 20px;}
 	header img {display: none;}
 	#slogan {margin-left: -15px;}
 	#phone {margin-left: 20px; margin-right: 20px;}
