@@ -419,7 +419,10 @@ fieldset p {
 	}
 	
 /*Mobile portrait size to mobile landscape size (devices & browsers)*/
-@media only screen and (max-width: 479px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 	/*body {background-image: none; background-color: black;}*/
 	header {margin-left: -30px;}
 	header img {display: none;}
