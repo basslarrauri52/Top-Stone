@@ -103,7 +103,6 @@ nav a { /*set link elements*/
 	
 nav a:hover { /*set hover highlights*/
 	color: black;
-	/*background-image: url(../images/green-marble.jpg);*/
 	background: #6b8e23;
 	border-radius: 15px;
 	padding: 2px;
@@ -117,7 +116,26 @@ nav a:hover { /*set hover highlights*/
 	background-image: url(../images/white-marble.jpg);
 	border-radius: 15px;
 	margin-left: -5px;
-}
+}	
+
+.map p {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+	}
+	
+.map iframe {
+	margin-left: 20px;
+	}
+	
+.map small {
+	margin-left: 20px;
+	margin-bottom: 40px;
+	}
+	
+#catalog-head {
+	margin-left: 100px;
+	}
 	
 article h2 {
 	margin-left: 375px;
