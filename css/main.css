@@ -8,10 +8,6 @@ body {
 	font-size: 100%;
 	}
 	
-/*img {
-	border-radius: 15px;
-	}*/
-	
 a {
 	text-decoration: none;
 	color: #6b8e23;
@@ -123,6 +119,12 @@ nav a:hover { /*set hover highlights*/
 	margin-left: -5px;
 }
 	
+article h2 {
+	margin-left: 375px;
+	font-weight: bolder;
+	color: #6b8e23;
+	}
+
 article p {
 	-moz-column-count: 3;
 	-moz-column-gap: 10px;
@@ -145,7 +147,7 @@ article a:hover {
 
 #rolling {
 	margin-top: 20px;
-	margin-left: 350px;
+	margin-left: 175px;
 	font-size: 1.875em;/*30/16*/
 	color: #6b8e23;
 	}
