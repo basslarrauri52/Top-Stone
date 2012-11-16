@@ -1,1 +1,0 @@
-http://basslarrauri52.github.com/Top-Stone/index.html
