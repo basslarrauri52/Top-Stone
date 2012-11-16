@@ -118,7 +118,7 @@ nav a:hover { /*set hover highlights*/
 	margin-left: -5px;
 }	
 
-.map p {
+.map p, #catalog p {
 	-moz-column-count: 1;
 	-webkit-column-count: 1;
 	column-count: 1;
@@ -134,8 +134,114 @@ nav a:hover { /*set hover highlights*/
 	}
 	
 #catalog-head {
-	margin-left: 100px;
+	margin-left: 45px;
+	margin-bottom: 30px;
+	font-size: 2em;
 	}
+	
+#catalog div {
+	margin-left: 135px;
+	}
+
+#catalog p {
+	font-size: 1.5em;
+	}
+		
+#fountain img {
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 45px;
+	}
+		
+#statue {
+	clear: both;
+	}
+	
+#statue img {
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 45px;
+	}
+	
+#gazebo {
+	clear: both;
+	}
+	
+#gazebo img {
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 45px;
+	}
+
+#column {
+	clear: both;
+	}
+	
+#column img {
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 45px;
+	} 
+	
+#fireplace {
+	clear: both;
+	}
+	
+#fireplace img {
+	float: left;
+	margin-bottom: 60px;
+	margin-right: 45px;
+	}
+	
+#pot {
+	clear: both;
+	}
+
+#pot img {
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 45px;
+	}	
+	
+#wall {
+	clear: both;
+	}
+
+#wall img {
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 45px;
+	}	
+	
+#bust {
+	clear: both;
+	}
+
+#bust img {
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 45px;
+	}	
+	
+#animal {
+	clear: both;
+	}
+
+#animal img {
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 45px;
+	}
+	
+#bronze {
+	clear: both;
+	}
+
+#bronze img {
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 45px;
+	}		
 	
 article h2 {
 	margin-left: 375px;
